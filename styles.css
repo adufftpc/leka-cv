@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/background-piano.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; /* This ensures the background remains static when scrolling */
+    color: #fff; /* White font color for readability on the image */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: rgba(35, 35, 35, 0.6);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.profile-pic {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.soundcloud-embed {
+    margin: 20px 0;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff; /* Set link color to white */
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links1 {
+    margin-top: 20px;
+}
+
+.links1 a {
+    margin: 0 0px;
+    text-decoration: none;
+    color: #fff; /* Set link color to white */
+}
+
+.links1 a:hover {
+    text-decoration: underline;
+}
+
+.link-logo {
+    vertical-align: middle;
+    width: 24px; /* Adjust as needed */
+    height: 24px; /* Adjust as needed */
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.dropdown-container {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #5a5a5a;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.dropdown-content p {
+    margin: 0;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flow-root;
+}
+
+.bio-contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.bio {
+    flex: 60%; /* Adjust as needed. This will take 60% of the container's width */
+}
+
+.bio h3 {
+    text-align: left;
+}
+
+.bio p {
+    text-align: left;
+}
+
+.skills1 {
+    flex: 25%; /* Adjust as needed. This will take 30% of the container's width */
+}
+.skills2 {
+    flex: 25%; /* Adjust as needed. This will take 30% of the container's width */
+}
+
+.contacts {
+    flex: 40%; /* Adjust as needed. This will take 30% of the container's width */
+    text-align: right;
+}
+
+.contacts h3 {
+    text-align: right;
+}
+
+.contacts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacts li {
+    margin-bottom: 10px;
+}
